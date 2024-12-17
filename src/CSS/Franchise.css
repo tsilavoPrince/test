@@ -1,0 +1,222 @@
+.logo-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.logo-cloud img {
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-cloud img:hover {
+    transform: scale(1.1);
+}
+
+.pourquoi-rejoindre-ewigo {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.div-block-20 {
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.div-block-19 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text-block-6 {
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.text-block-7 {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.notre-vision-de-demain {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.div-block-22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chapeau {
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.heading-3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.div-block-21 {
+    background: #eaeaea; /* Ajoutez une couleur de fond ou une image */
+    height: 300px; /* Ajustez selon vos besoins */
+    border-radius: 8px;
+}
+
+.anim1 {
+    transition: transform 0.3s ease-in-out;
+}
+
+.anim1:hover {
+    transform: scale(1.05);
+}
+
+.les-medias-parlent-de-nous {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .div-block-31 img {
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+
+  /* Section principale */
+.testimonials-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Titre de la section */
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Grille des témoignages */
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Carte de témoignage */
+  .testimonial-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Contenu du témoignage */
+  .testimonial-content {
+    margin-bottom: 20px;
+  }
+  
+  .quote-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-quote {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Pied de témoignage */
+  .testimonial-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-image {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .testimonial-info {
+    text-align: left;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .testimonial-location {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Lien pour voir tous les témoignages */
+  .view-all-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+  }
+  
+  .view-all-text {
+    margin-right: 10px;
+  }
+  
+  .external-link-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+
+  
+  

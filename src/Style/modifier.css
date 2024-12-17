@@ -1,0 +1,53 @@
+/* Styles adaptés pour App.jsx */
+.page-template {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.site-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.site-branding a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+/* Ajout de styles pour les logos */
+.logo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.logo-grid img {
+    max-width: 150px;
+    margin: 10px;
+}

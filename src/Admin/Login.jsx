@@ -32,7 +32,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:8000/api/login', {
+      const response = await axios.post('https://test2-cnd2.onrender.com/api/login', {
         email,
         password,
       });

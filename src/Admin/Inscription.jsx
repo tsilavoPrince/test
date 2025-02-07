@@ -38,7 +38,7 @@ const Login = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/api/register', formData);
+      const response = await axios.post('https://test2-cnd2.onrender.com/api/register', formData);
       setMessage('Registration successful!');
       setError('');
     } catch (err) {
@@ -50,7 +50,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/api/login', {
+      const response = await axios.post('https://test2-cnd2.onrender.com/api/login', {
         email: formData.email,
         password: formData.password,
       });

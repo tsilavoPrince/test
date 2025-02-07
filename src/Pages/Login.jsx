@@ -23,7 +23,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:8000/api/login', {
+      const response = await axios.post('https://test2-cnd2.onrender.com/api/login', {
         email,
         password,
       });
@@ -79,12 +79,12 @@ const Login = () => {
           </div>
           <br></br>
           <div className="d-grid">
-              <button type="submit" className="btn btn-danger">
+            <button type="submit" className="btn btn-danger">
               <Link to="/FaQ">
-                    <button className="btn btn-danger">Annuler</button>
-               </Link>
-              </button>
-            </div>
+                <button className="btn btn-danger">Annuler</button>
+              </Link>
+            </button>
+          </div>
         </form>
       </div>
     </div>

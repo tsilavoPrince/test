@@ -58,6 +58,11 @@ const Header = () => {
                                     <a >Actualites</a>
                                 </Link>
                             </li>
+                            <li>
+                                <Link to="/Login">
+                                    Connexion
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>

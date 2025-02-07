@@ -23,7 +23,7 @@ const AdminComponent = () => {
 
     useEffect(() => {
         // Fonction pour récupérer les données avec Axios
-        axios.get('http://127.0.0.1:8000/api/read') // Exemple d'URL d'API
+        axios.get('https://test2-cnd2.onrender.com/api/read') // Exemple d'URL d'API
             .then((response) => {
                 // Mise à jour de l'état avec les données récupérées
                 setUsers(response.data);
@@ -38,7 +38,7 @@ const AdminComponent = () => {
 
     const resolveIntervention = (id) => {
         // Appel à l'API pour supprimer l'élément
-        axios.delete(`http://127.0.0.1:8000/api/delete/${id}`)
+        axios.delete(`https://test2-cnd2.onrender.com/api/delete/${id}`)
             .then((response) => {
                 // Mise à jour de l'état pour retirer l'élément supprimé de la liste
                 setUsers(users.filter(user => user.id !== id));

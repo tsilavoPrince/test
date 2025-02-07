@@ -63,6 +63,11 @@ const Header = () => {
                                     Connexion
                                 </Link>
                             </li>
+                            <li>
+                                <Link to="/Inscription">
+                                    Inscription
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>

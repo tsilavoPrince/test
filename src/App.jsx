@@ -22,6 +22,7 @@ import ConditionGenerale from "./Pages/ConditionGeneralDeVente";
 import Donne from "./Pages/DonnePersonnelle";
 import Mention from "./Pages/MentionLegal";
 
+
 // Routes de l'application
 const AppRoutes = () => {
     const location = useLocation();  // Récupérer l'URL actuelle
@@ -46,9 +47,10 @@ const AppRoutes = () => {
                 </PrivateRoute>} />
             <Route path="/Login" element={<Login />} />
             <Route path="/Inscription" element={
-                <PrivateRoute>
-                    <Inscription />
-                </PrivateRoute>} />
+                // <PrivateRoute>
+                <Inscription />}
+            // </PrivateRoute>} 
+            />
             <Route path="/logout" element={<Logout />} />
             <Route path="*" element={<NotFound />} />
         </Routes>

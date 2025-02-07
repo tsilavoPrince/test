@@ -87,6 +87,11 @@ const AdminComponent = () => {
                         </a>
                     </li>
                     <li>
+                        <Link to="/Inscription">
+                            Inscription
+                        </Link>
+                    </li>
+                    <li>
                         <Link to="/logout">
                             <a className="nav-link text-white">
                                 <svg className="bi me-2" width="16" height="16">

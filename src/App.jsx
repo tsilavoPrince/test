@@ -47,9 +47,9 @@ const AppRoutes = () => {
                 </PrivateRoute>} />
             <Route path="/Login" element={<Login />} />
             <Route path="/Inscription" element={
-                // <PrivateRoute>
-                <Inscription />}
-            // </PrivateRoute>} 
+                <PrivateRoute>
+                    <Inscription />
+                </PrivateRoute>}
             />
             <Route path="/logout" element={<Logout />} />
             <Route path="*" element={<NotFound />} />

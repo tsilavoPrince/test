@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../CSS/AdminComponent.module.css'; // Import des styles spécifiques au composant
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const AdminComponent = () => {
     useEffect(() => {
@@ -84,6 +85,16 @@ const AdminComponent = () => {
                             </svg>
                             Intervention
                         </a>
+                    </li>
+                    <li>
+                        <Link to="/logout">
+                            <a className="nav-link text-white">
+                                <svg className="bi me-2" width="16" height="16">
+                                    <use xlinkHref="#chat-quote-fill"></use> {/* Icône Message */}
+                                </svg>
+                                <button className="btn btn-danger">Se déconnecter</button>
+                            </a>
+                        </Link>
                     </li>
                 </ul>
                 <hr />

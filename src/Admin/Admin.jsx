@@ -88,7 +88,11 @@ const AdminComponent = () => {
                     </li>
                     <li>
                         <Link to="/Inscription">
-                            Inscription
+                            <a href="#" className="nav-link active" aria-current="page">
+                                <svg className="bi me-2" width="16" height="16">
+                                    <use xlinkHref="#home"></use> {/* Icône Home */}
+                                </svg>
+                                Inscription </a>
                         </Link>
                     </li>
                     <li>
